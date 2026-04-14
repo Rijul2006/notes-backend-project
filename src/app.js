@@ -18,8 +18,7 @@ app.post('/notes', async (req, res) => {
 })
 
 app.get('/notes', async (req, res) => {
-    const notes = await noteModel.find() // return an array of object.. if no obj is present it returns an empty array..
-    //findOne: returns an object.. if no obj is present it returns null..
+    const notes = await noteModel.find() 
     res.status(200).json({
         message:"Notes fetched",
         notes: notes
