@@ -6,12 +6,10 @@ A simple and efficient backend for a notes-taking application. This project focu
 - **Create Notes:** Save thoughts with a title and description.
 - **Read/View:** View all saved notes dynamically.
 - **Persistent Storage:** Integrated with MongoDB for data reliability.
-- **EJS Integration:** Server-side rendering for a smooth UI flow.
 
 ##  Tech Stack
 - **Node.js** & **Express.js** (Backend Framework)
 - **MongoDB** & **Mongoose** (Database & Modeling)
-- **EJS** (Templating Engine)
 
 ##  How to Run Locally
 1. Clone the repository.
